@@ -14,13 +14,17 @@
   border-top: 3px solid transparent;
 }
 
-.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:hover {
+  border-top: 3px solid #BAA438;
+  color: darkgray !important;
+}
 .navbar-nav .nav-link.active {
   border-top: 3px solid darkgray;
+  color: #8B0000 !important;
 }
 
 .navbar-nav .nav-link {
-  border-top: 3px solid brown;
+  border-top: 1px solid #8B0000;
 }
 
 .navbar-nav .nav-item {
@@ -32,6 +36,9 @@
 
 .navbar-nav .nav-link {
   padding: 10px 20px;
+  color: #BAA438 !important;
+  font-weight: 450 !important;
+  letter-spacing: 1.5px !important;
   /* Add padding to increase the clickable area */
 }
 
@@ -160,16 +167,61 @@ input[type=radio]:checked {
 .bullet-list li {
   margin-bottom: 10px;
   /* Space after each list item */
+  text-align: justify;
 }
 
 .numbered-list {
   list-style-type: decimal;
   /* Numbered points */
-  padding-left: 20px;
+  padding-left: 15px;
   /* Indent the list */
 }
 
 .numbered-list li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   /* Space after each list item */
+}
+
+.contact-wrapper {
+  background-color: #E8E6E6;
+}
+
+.contact-us-header {
+  color: #FF6161;
+  font-size: 36px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 100px;
+}
+
+.email {
+  text-decoration: underline;
+  color: black;
+}
+
+.form-control {
+  border: 1px solid #ccc; /* Light gray border for inputs */
+  margin-bottom: 20px; /* Space between inputs */
+}
+
+.submit-btn {
+  background-color: #000; /* Black background for the submit button */
+  color: #fff; /* White text color for the submit button */
+}
+
+.contact-form{
+  width: 50%;
+  padding-bottom: 80px;
+  margin: auto;
+}
+
+.footer {
+  font-size: small;
+  text-align: center;
+  color: gray;
+  height: 60px;
+  align-content: flex-end;
+  margin-bottom: 20px;
 }
